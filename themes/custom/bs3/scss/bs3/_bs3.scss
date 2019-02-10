@@ -1,0 +1,30 @@
+html {
+  background: $blue;
+}
+
+body {
+  background: linear-gradient(to top, $blue 0%, $light-blue 130px);
+  background-repeat: no-repeat;
+  @media #{$tablet} {
+    margin: 0;
+  }
+}
+
+.footer {
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+.field--name-field-image {
+  background: gray;
+  display: inline-block;
+  img {
+    opacity: 0.2;
+    transition: 0.3s opacity;
+  }
+  &:hover img {
+    opacity: 1;
+  }
+}

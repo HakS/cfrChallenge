@@ -1,11 +1,8 @@
-# Generic Drupal 8 Site
+# Docker instance for CFR Challenge
 
 ## Usage
 Install Docker.
 * Mac: https://store.docker.com/editions/community/docker-ce-desktop-mac
-
-Add any test modules to the 'modules' directory in the repo.
-Add any themes to the 'themes' directory in this repo.
 
 From the root of this directory, do
 ```
@@ -15,3 +12,8 @@ This sets up a full Drupal site at http://localhost:8080
 
 The admin user and password for the site are 'admin'.
 
+The subtheme is "Bootstrap 3"
+
+I pushed css/main.css, however if by some reason you want to verify if gulp is working, you can do
+- npm install
+- npm start
